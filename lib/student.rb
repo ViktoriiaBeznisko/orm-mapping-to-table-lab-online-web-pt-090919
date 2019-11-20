@@ -25,7 +25,7 @@ attr_reader :id
   
   def self.save
     sql = <<-SQL
-    INSERT INTO students
+    INSERT INTO students ()
     SQL
   end
 end
