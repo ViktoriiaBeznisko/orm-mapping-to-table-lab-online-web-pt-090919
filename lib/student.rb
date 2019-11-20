@@ -21,6 +21,9 @@ attr_reader :id
   end
   
   def self.drop_table
+    sql = <<-SQL
+    DROP TABLE
+    SQL
   end
   
   def save
