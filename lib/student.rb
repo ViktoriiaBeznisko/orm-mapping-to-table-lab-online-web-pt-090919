@@ -22,7 +22,7 @@ attr_reader :id
   
   def self.drop_table
     sql = <<-SQL
-    DROP TABLE
+    DROP TABLE students
     SQL
   end
   
