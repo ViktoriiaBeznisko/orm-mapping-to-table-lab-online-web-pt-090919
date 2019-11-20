@@ -26,6 +26,7 @@ attr_reader :id
   def self.save
     sql = <<-SQL
     INSERT INTO students (name, grade)
+    VALUES (?,?)
     SQL
   end
 end
